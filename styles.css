@@ -1,33 +1,65 @@
 .container {
   margin: 20px auto;
   display: block;
-  width: 50%;
+  max-width: 600px;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 .content {
-  /* display: block; */
-  margin: 0 auto;
+  margin: auto;
+  border-radius: 10%;
+  width: 100%;
 }
 .result-detail {
   background: #6340fb;
   color: #fefefe;
-
   text-align: center;
   border-radius: 10%;
   width: 200px;
 }
 .summary {
   background: #fffcfa;
+  border-radius: 10%;
 }
 .result {
   background: #452ddb;
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  /* display: block; */
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 .score {
   margin: auto;
+}
+.result-value {
+  font-size: 36px;
+  font-weight: bold;
+}
+.of-hundred {
+  color: #7060f8;
+  font-weight: 400;
+}
+.reaction-summary {
+  background: #fff7f5;
+}
+.memory-summary {
+  background: #fffcf1;
+}
+.verbal-summary {
+  background: #faf9fe;
+}
+.visual-summary {
+  background: #f3f3ff;
+}
+.summary-of-hundred {
+  color: #b7b2b4;
+}
+.continue-btn {
+  color: #fefefe;
+  background: #303c58;
+  border-radius: 25px;
+  font-weight: bold;
 }

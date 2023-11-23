@@ -18,7 +18,6 @@
   color: #fefefe;
   text-align: center;
   border-radius: 10%;
-  width: 200px;
 }
 .summary {
   background: #fffcfa;
@@ -31,7 +30,6 @@
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
 }
 .score {
   margin: auto;
@@ -43,6 +41,10 @@
 .of-hundred {
   color: #7060f8;
   font-weight: 400;
+}
+.summary-detail {
+  font-weight: 600;
+  opacity: 0.8;
 }
 .reaction-summary {
   background: #fff7f5;
@@ -56,6 +58,18 @@
 .visual-summary {
   background: #f3f3ff;
 }
+.reaction-text {
+  color: #f25257;
+}
+.memory-text {
+  color: #edcc49;
+}
+.verbal-text {
+  color: #35ba99;
+}
+.visual-text {
+  color: #445ac9;
+}
 .summary-of-hundred {
   color: #b7b2b4;
 }
@@ -64,4 +78,17 @@
   background: #303c58;
   border-radius: 25px;
   font-weight: bold;
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0;
+    height: fit-content;
+  }
+  .result-detail {
+    width: 100%;
+    border-radius: 0% 0% 10% 10%;
+  }
+  .content {
+    border-radius: 0%;
+  }
 }

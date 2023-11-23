@@ -1,10 +1,12 @@
 .container {
-  margin: 20px auto;
-  display: block;
+  margin: 0 auto;
   max-width: 600px;
   display: grid;
-  place-items: center;
   height: 100vh;
+  place-items: center;
+}
+.grid-element {
+  width: 100%;
 }
 .content {
   margin: auto;
